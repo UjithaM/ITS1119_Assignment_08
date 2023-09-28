@@ -10,7 +10,6 @@ setText();
 
 const swipe = () => {
     let lastIndex = letterArray.pop();
-    console.log(lastIndex)
     letterArray.unshift(lastIndex);
     setText();
 }
