@@ -1,0 +1,15 @@
+section > div > img {
+    width: 200px;
+}
+section > div > span {
+    position: relative;
+    top: -100px;
+    left: -17px;
+}
+section > div {
+    position: absolute;
+    top: calc(50%  - 100px);
+}
+body{
+    background: #E9E7E6;
+}
