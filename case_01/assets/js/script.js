@@ -1,9 +1,7 @@
 var letterArray = ["A", "B", "C", "D", "E", "F"];
-var items = ["#first", "#second", "#thread", "#fourth", "#fifth", "#sixth"]
-
 const setText = () =>{
-    for (let i = 0; i < items.length; i++){
-        $(items[i]).text(letterArray[i]);
+    for (let i = 0; i < letterArray.length; i++){
+        $("span").eq(i).text(letterArray[i]);
     }
 }
 setText();
