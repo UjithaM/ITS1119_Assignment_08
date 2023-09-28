@@ -1,0 +1,31 @@
+body{
+    background: #36474F;
+}
+div{
+    width: 100px;
+    height: 50px;
+    background: #E9E7E6;
+    margin: 10px;
+    border-radius: 5px;
+}
+#content {
+    display: flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 800px;
+    justify-content: center;
+}
+#upDiv{
+    position: relative;
+    right: 10px;
+}
+#downDiv{
+    position: relative;
+    left: 690px;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
